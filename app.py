@@ -40,4 +40,4 @@ def predict():
 
 
 if __name__=='__main__':
-    app.run(debug=Flase) 
+    app.run(debug=Flase, port=8000) 
