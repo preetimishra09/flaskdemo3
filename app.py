@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 app=Flask(__name__)
-model=pickle.load(open('C:\\Users\\PREETI\\Desktop\\Regenesys\\Web Development\\Web Development Sessions Dec 2023\\Session 6\\Code\Diabetes_Flask_Example\\model\\Diabetes_Classifier.pkl','rb'))
+model=pickle.load(open('model\\Diabetes_Classifier.pkl','rb'))
 
 
 
